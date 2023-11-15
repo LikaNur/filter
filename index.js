@@ -36,7 +36,7 @@ const foxData = [
         description: "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te.",
     },
     {
-        name: "White pet smile fox",
+        name: "Pet smile fox",
         likes: 9764,
         imageSrc: "assets/white_pet_smile_fox.png",
         heart: "assets/like_icon.png",
@@ -45,7 +45,7 @@ const foxData = [
         description: "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te.",
     },
     {
-        name: "Orange kit smile fox",
+        name: "Kit smile fox",
         likes: 1287,
         imageSrc: "assets/orange_kit_smile_fox.png",
         heart: "assets/like_icon.png",
@@ -63,7 +63,7 @@ const foxData = [
         description: "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te.",
     },
     {
-        name: "Big smile fox",
+        name: "Red smile fox",
         likes: 1100,
         imageSrc: "assets/big_smile_fox.png",
         heart: "assets/like_icon.png",
@@ -108,42 +108,3 @@ filterBoxes.addEventListener('click', (event) => {
         displayContents(event.target, foxData, mainSections);
     }
 });
-
-
-
-displayContents(filterBoxes.querySelector('.all'), foxData, mainSections);
-// const filterBoxes = document.querySelector('.filter_boxes'),
-//      containers = document.querySelectorAll('.container')
-
-// function filter() {
-//     filterBoxes.addEventListener('click', event => {
-//         const targetId = event.target.dataset.id;
-//         console.log(targetId);
-
-//         switch (targetId) {
-//             case 'fennec':
-//             case 'arctic':
-//             case 'kit':
-//             case 'red':
-//             case 'pet':
-//                 getContainer(targetId);
-//                 break;
-//         }
-//     });
-// }
-
-// filter();
-
-// function getContainer(className) {
-//     containers.forEach(item => {
-//         if (item.classList.contains(className)) {
-//             item.style.display = 'block';
-//             item.style.width = '350px'; 
-//             item.style.margin = '0 auto'; 
-//         } else {
-//             item.style.display = 'none';
-//         }
-//     });
-// }
-
-
