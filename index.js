@@ -108,3 +108,4 @@ filterBoxes.addEventListener('click', (event) => {
         displayContents(event.target, foxData, mainSections);
     }
 });
+displayContents(filterBoxes.querySelector('.all'), foxData, mainSections);
